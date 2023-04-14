@@ -27,11 +27,11 @@ button {
   gap: 20px;
 }
 
-.gallery li {
+.gallery-item {
   list-style: none;
 }
 
-.gallery img {
+.gallery-img {
   max-width: 100%;
   height: auto;
   display: block;

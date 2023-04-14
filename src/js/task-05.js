@@ -1,8 +1,8 @@
-const input = document.querySelector('#name-input');
-const output = document.querySelector('#name-output');
+const inputEl = document.querySelector('#name-input');
+const outputEl = document.querySelector('#name-output');
 
-input.addEventListener('input', updateOutput);
+inputEl.addEventListener('input', updateOutput);
 
 function updateOutput(event) {
-  output.textContent = event.target.value || 'Anonymous';
+  outputEl.textContent = event.target.value || 'Anonymous';
 }
