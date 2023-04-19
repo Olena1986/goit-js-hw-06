@@ -1,5 +1,4 @@
-const categoriesEl = document.querySelector('#categories');
-const itemEl = [...categoriesEl.children];
+const itemEl = document.querySelectorAll('#categories .item');
 
 console.log(`Number of categories: ${itemEl.length}`);
 
@@ -8,3 +7,7 @@ itemEl.forEach(item => {
   const elementCount = item.querySelectorAll('li').length;
   console.log(`Category: ${categoryName}\nElements: ${elementCount}`);
 });
+
+
+
+
